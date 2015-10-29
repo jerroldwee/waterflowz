@@ -45,9 +45,9 @@
      .post(function(req, res) {
          // send back to end req-res cycle
          res.json('okay, received\n');
-//         // robot handle as middleware for POST
+         // robot handle as middleware for POST
          bot1.handle(req, res)
-//     })
+     })
      .put(function(req, res) {
          res.send("you just called PUT\n")
      })
