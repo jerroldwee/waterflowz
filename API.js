@@ -42,7 +42,7 @@ var API = function(token) {
 
     // A sample Telegram bot JSON data, for req options
     this.formData = {
-        chat_id: "87654321",
+        chat_id: "19884279",
         text: "Hello there"
     };
 
